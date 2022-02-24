@@ -48,6 +48,18 @@ protected function create(array $data)
         return $user;
     }
 ```
+## Other users of sweet alert in controller:
+
+```php
+
+Alert::info('Info Title', 'Info Message');
+Alert::warning('Warning Title', 'Warning Message');
+Alert::error('Error Title', 'Error Message');
+Alert::question('Question Title', 'Question Message');
+Alert::image('Image Title!','Image Description','Image URL','Image Width','Image Height');
+Alert::html('Html Title', 'Html Code', 'Type');
+
+```
 
 ## Sweet alert for helper function:
 
@@ -61,3 +73,5 @@ Alert::image('Image Title!','Image Description','Image URL','Image Width','Image
 Alert::html('Html Title', 'Html Code', 'Type');
 
 ```
+
+
